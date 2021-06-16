@@ -1,0 +1,30 @@
+dataset: MiniImageNet
+model_type: ConvNet
+embed_size: 64
+
+num_episodes_epoch: 100
+num_eval_episodes:  600
+query: 20
+
+lr: 0.0001
+lr_mul: 10
+gamma: 0.5
+max_epoch: 200
+step_size: 30
+
+dropout: 0.5
+back_ward_step: 1
+momentum: 0.95
+weight_decay: 0.0001
+nesterov: True
+
+head: 10
+final_weight: 1
+ave_weight: 0.5
+temperature: 12
+
+checkpoint_dir: ./checkpoints
+init_weights: ./saves/initialization/mini-imagenet/IEPT_Conv64_mini.pth
+gpu: "0"
+ngpu: 1
+

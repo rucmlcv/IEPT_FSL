@@ -1,0 +1,30 @@
+dataset: MiniImageNet
+model_type: ResNet12
+embed_size: 640
+
+num_episodes_epoch: 80
+num_eval_episodes:  600
+query: 20
+
+lr: 0.0002
+lr_mul: 20
+gamma: 0.5
+max_epoch: 60
+step_size: 50
+
+dropout: 0.5
+back_ward_step: 1
+momentum: 0.95
+weight_decay: 0.0001
+nesterov: True
+
+head: 10
+final_weight: 1
+ave_weight: 0.2
+temperature: 512
+
+checkpoint_dir: ./checkpoints
+init_weights: ./saves/initialization/mini-imagenet/IEPT_Res12_mini.pth
+gpu: 0,1
+ngpu: 2
+
