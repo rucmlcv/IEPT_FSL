@@ -23,7 +23,7 @@ The following items are required:
 
 The MiniImageNet dataset is a subset of the ImageNet that includes a total number of 100 classes and 600 examples per class. We follow the [previous setup](https://github.com/twitter/meta-learning-lstm), and use 64 classes as SEEN categories, 16 and 20 as two sets of UNSEEN categories for model validation and evaluation respectively. Note that we use the raw images which are resized to 92\*92 and then center croped to 84\*84.
 
-#### TieredImageNet Dataset(TODO)
+#### TieredImageNet Dataset (TODO)
 
 
 ### Model Training
