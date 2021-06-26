@@ -1,9 +1,9 @@
-# IEPT: Instance-Level and Episode-Level Pretext Tasks For Few-Shot Learning (ICLR 2021)
-The code repository for "[IEPT: Instance-Level and Episode-Level Pretext Tasks For Few-Shot Learning](https://openreview.net/pdf/a68102247933495b5b77811b3b5299cf97a108f4.pdf)".
+# IEPT - Official PyTorch Implementation
 
-## Abstract
+> [**IEPT: Instance-Level and Episode-Level Pretext Tasks For Few-Shot Learning**](https://openreview.net/pdf/a68102247933495b5b77811b3b5299cf97a108f4.pdf) (ICLR2021)<br>
+> Manli Zhang, Jianhong Zhang, Zhiwu Lu, Tao Xiang, Mingyu Ding, Songfang Huang<br>
 
-In this work, we propose a novel Instance-level and Episode-level Pretext Task (IEPT) framework that seamlessly integrates SSL into FSL. Specifically, given an FSL episode, we first apply geometric transformations to each instance to generate extended episodes. At the instancelevel, transformation recognition is performed as per standard SSL. Importantly, at the episode-level, two SSL-FSL hybrid learning objectives are devised: (1) The consistency across the predictions of an FSL classifier from different extended episodes is maximized as an episode-level pretext task. (2) The features extracted from each instance across different episodes are integrated to construct a single FSL classifier for meta-learning.
+> **Abstract:** *In this work, we propose a novel Instance-level and Episode-level Pretext Task (IEPT) framework that seamlessly integrates SSL into FSL. Specifically, given an FSL episode, we first apply geometric transformations to each instance to generate extended episodes. At the instancelevel, transformation recognition is performed as per standard SSL. Importantly, at the episode-level, two SSL-FSL hybrid learning objectives are devised: (1) The consistency across the predictions of an FSL classifier from different extended episodes is maximized as an episode-level pretext task. (2) The features extracted from each instance across different episodes are integrated to construct a single FSL classifier for meta-learning.*
 
 ![architecture](imgs/architecture.png)
 
@@ -56,11 +56,7 @@ If this repo helps in your work, please cite the following paper:
 ## Acknowledgment
 We thank the following repos for providing helpful components/functions in our work.
 - [FEAT](https://github.com/Sha-Lab/FEAT)
-
 - [ProtoNet](https://github.com/cyvius96/prototypical-network-pytorch)
-
 - [MatchingNet](https://github.com/gitabcworld/MatchingNetworks)
-
 - [PFA](https://github.com/joe-siyuan-qiao/FewShot-CVPR/)
-
 - [Transformer](https://github.com/jadore801120/attention-is-all-you-need-pytorch)
