@@ -48,7 +48,7 @@ If this repo helps in your work, please cite the following paper:
   		zhang2021iept,
   		title={{IEPT}: Instance-Level and Episode-Level Pretext Tasks for Few-Shot Learning},
   		author={Manli Zhang and Jianhong Zhang and Zhiwu Lu and Tao Xiang and Mingyu Ding and Songfang Huang},
-  		booktitle={International Conference on Learning Representations},
+  		booktitle={International Conference on Learning Representations (ICLR)},
   		year={2021},
   		url={https://openreview.net/forum?id=xzqLpqRzxLq}
 	}
